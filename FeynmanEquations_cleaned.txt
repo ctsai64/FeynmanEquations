@@ -1,0 +1,963 @@
+Filename: I.6.2a
+Number: 1
+Output: f
+Formula: exp(-theta**2/2)/sqrt(2*pi)
+Variables:
+  Name: theta, Low: 1, High: 3
+
+Filename: I.6.2
+Number: 2
+Output: f
+Formula: exp(-(theta/sigma)**2/2)/(sqrt(2*pi)*sigma)
+Variables:
+  Name: sigma, Low: 1, High: 3
+  Name: theta, Low: 1, High: 3
+
+Filename: I.6.2b
+Number: 3
+Output: f
+Formula: exp(-((theta-theta1)/sigma)**2/2)/(sqrt(2*pi)*sigma)
+Variables:
+  Name: sigma, Low: 1, High: 3
+  Name: theta, Low: 1, High: 3
+  Name: theta1, Low: 1, High: 3
+
+Filename: I.8.14
+Number: 4
+Output: d
+Formula: sqrt((x2-x1)**2+(y2-y1)**2)
+Variables:
+  Name: x1, Low: 1, High: 5
+  Name: x2, Low: 1, High: 5
+  Name: y1, Low: 1, High: 5
+  Name: y2, Low: 1, High: 5
+
+Filename: I.9.18
+Number: 5
+Output: F
+Formula: G*m1*m2/((x2-x1)**2+(y2-y1)**2+(z2-z1)**2)
+Variables:
+  Name: m1, Low: 1, High: 2
+  Name: m2, Low: 1, High: 2
+  Name: G, Low: 1, High: 2
+  Name: x1, Low: 3, High: 4
+  Name: x2, Low: 1, High: 2
+  Name: y1, Low: 3, High: 4
+  Name: y2, Low: 1, High: 2
+  Name: z1, Low: 3, High: 4
+  Name: z2, Low: 1, High: 2
+
+Filename: I.10.7
+Number: 6
+Output: m
+Formula: m_0/sqrt(1-v**2/c**2)
+Variables:
+  Name: m_0, Low: 1, High: 5
+  Name: v, Low: 1, High: 2
+  Name: c, Low: 3, High: 10
+
+Filename: I.11.19
+Number: 7
+Output: A
+Formula: x1*y1+x2*y2+x3*y3
+Variables:
+  Name: x1, Low: 1, High: 5
+  Name: x2, Low: 1, High: 5
+  Name: x3, Low: 1, High: 5
+  Name: y1, Low: 1, High: 5
+  Name: y2, Low: 1, High: 5
+  Name: y3, Low: 1, High: 5
+
+Filename: I.12.1
+Number: 8
+Output: F
+Formula: mu*Nn
+Variables:
+  Name: mu, Low: 1, High: 5
+  Name: Nn, Low: 1, High: 5
+
+Filename: I.12.2
+Number: 10
+Output: F
+Formula: q1*q2*r/(4*pi*epsilon*r**3)
+Variables:
+  Name: q1, Low: 1, High: 5
+  Name: q2, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: I.12.4
+Number: 11
+Output: Ef
+Formula: q1*r/(4*pi*epsilon*r**3)
+Variables:
+  Name: q1, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: I.12.5
+Number: 12
+Output: F
+Formula: q2*Ef
+Variables:
+  Name: q2, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+
+Filename: I.12.11
+Number: 13
+Output: F
+Formula: q*(Ef+B*v*sin(theta))
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+  Name: theta, Low: 1, High: 5
+
+Filename: I.13.4
+Number: 9
+Output: K
+Formula: 1/2*m*(v**2+u**2+w**2)
+Variables:
+  Name: m, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+  Name: u, Low: 1, High: 5
+  Name: w, Low: 1, High: 5
+
+Filename: I.13.12
+Number: 14
+Output: U
+Formula: G*m1*m2*(1/r2-1/r1)
+Variables:
+  Name: m1, Low: 1, High: 5
+  Name: m2, Low: 1, High: 5
+  Name: r1, Low: 1, High: 5
+  Name: r2, Low: 1, High: 5
+  Name: G, Low: 1, High: 5
+
+Filename: I.14.3
+Number: 15
+Output: U
+Formula: m*g*z
+Variables:
+  Name: m, Low: 1, High: 5
+  Name: g, Low: 1, High: 5
+  Name: z, Low: 1, High: 5
+
+Filename: I.14.4
+Number: 16
+Output: U
+Formula: 1/2*k_spring*x**2
+Variables:
+  Name: k_spring, Low: 1, High: 5
+  Name: x, Low: 1, High: 5
+
+Filename: I.15.3x
+Number: 17
+Output: x1
+Formula: (x-u*t)/sqrt(1-u**2/c**2)
+Variables:
+  Name: x, Low: 5, High: 10
+  Name: u, Low: 1, High: 2
+  Name: c, Low: 3, High: 20
+  Name: t, Low: 1, High: 2
+
+Filename: I.15.3t
+Number: 18
+Output: t1
+Formula: (t-u*x/c**2)/sqrt(1-u**2/c**2)
+Variables:
+  Name: x, Low: 1, High: 5
+  Name: c, Low: 3, High: 10
+  Name: u, Low: 1, High: 2
+  Name: t, Low: 1, High: 5
+
+Filename: I.15.1
+Number: 19
+Output: p
+Formula: m_0*v/sqrt(1-v**2/c**2)
+Variables:
+  Name: m_0, Low: 1, High: 5
+  Name: v, Low: 1, High: 2
+  Name: c, Low: 3, High: 10
+
+Filename: I.16.6
+Number: 20
+Output: v1
+Formula: (u+v)/(1+u*v/c**2)
+Variables:
+  Name: c, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+  Name: u, Low: 1, High: 5
+
+Filename: I.18.4
+Number: 21
+Output: r
+Formula: (m1*r1+m2*r2)/(m1+m2)
+Variables:
+  Name: m1, Low: 1, High: 5
+  Name: m2, Low: 1, High: 5
+  Name: r1, Low: 1, High: 5
+  Name: r2, Low: 1, High: 5
+
+Filename: I.18.12
+Number: 22
+Output: tau
+Formula: r*F*sin(theta)
+Variables:
+  Name: r, Low: 1, High: 5
+  Name: F, Low: 1, High: 5
+
+Filename: I.18.14
+Number: 23
+Output: L
+Formula: m*r*v*sin(theta)
+Variables:
+  Name: m, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+
+Filename: I.24.6
+Number: 24
+Output: E_n
+Formula: 1/2*m*(omega**2+omega_0**2)*1/2*x**2
+Variables:
+  Name: m, Low: 1, High: 3
+  Name: omega, Low: 1, High: 3
+  Name: omega_0, Low: 1, High: 3
+  Name: x, Low: 1, High: 3
+
+Filename: I.25.13
+Number: 25
+Output: Volt
+Formula: q/C
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: C, Low: 1, High: 5
+
+Filename: I.26.2
+Number: 26
+Output: theta1
+Formula: arcsin(n*sin(theta2))
+Variables:
+  Name: n, Low: 0, High: 1
+  Name: theta2, Low: 1, High: 5
+
+Filename: I.27.6
+Number: 27
+Output: foc
+Formula: 1/(1/d1+n/d2)
+Variables:
+  Name: d1, Low: 1, High: 5
+  Name: d2, Low: 1, High: 5
+  Name: n, Low: 1, High: 5
+
+Filename: I.29.4
+Number: 28
+Output: k
+Formula: omega/c
+Variables:
+  Name: omega, Low: 1, High: 10
+  Name: c, Low: 1, High: 10
+
+Filename: I.29.16
+Number: 29
+Output: x
+Formula: sqrt(x1**2+x2**2-2*x1*x2*cos(theta1-theta2))
+Variables:
+  Name: x1, Low: 1, High: 5
+  Name: x2, Low: 1, High: 5
+  Name: theta1, Low: 1, High: 5
+  Name: theta2, Low: 1, High: 5
+
+Filename: I.30.3
+Number: 30
+Output: Int
+Formula: Int_0*sin(n*theta/2)**2/sin(theta/2)**2
+Variables:
+  Name: Int_0, Low: 1, High: 5
+  Name: theta, Low: 1, High: 5
+  Name: n, Low: 1, High: 5
+
+Filename: I.30.5
+Number: 31
+Output: theta
+Formula: arcsin(lambd/(n*d))
+Variables:
+  Name: lambd, Low: 1, High: 2
+  Name: d, Low: 2, High: 5
+  Name: n, Low: 1, High: 5
+
+Filename: I.32.5
+Number: 32
+Output: Pwr
+Formula: q**2*a**2/(6*pi*epsilon*c**3)
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: a, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: c, Low: 1, High: 5
+
+Filename: I.32.17
+Number: 33
+Output: Pwr
+Formula: (1/2*epsilon*c*Ef**2)*(8*pi*r**2/3)*(omega**4/(omega**2-omega_0**2)**2)
+Variables:
+  Name: epsilon, Low: 1, High: 2
+  Name: c, Low: 1, High: 2
+  Name: Ef, Low: 1, High: 2
+  Name: r, Low: 1, High: 2
+  Name: omega, Low: 1, High: 2
+  Name: omega_0, Low: 3, High: 5
+
+Filename: I.34.8
+Number: 34
+Output: omega
+Formula: q*v*B/p
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: p, Low: 1, High: 5
+
+Filename: I.34.1
+Number: 35
+Output: omega
+Formula: omega_0/(1-v/c)
+Variables:
+  Name: c, Low: 3, High: 10
+  Name: v, Low: 1, High: 2
+  Name: omega_0, Low: 1, High: 5
+
+Filename: I.34.14
+Number: 36
+Output: omega
+Formula: (1+v/c)/sqrt(1-v**2/c**2)*omega_0
+Variables:
+  Name: c, Low: 3, High: 10
+  Name: v, Low: 1, High: 2
+  Name: omega_0, Low: 1, High: 5
+
+Filename: I.34.27
+Number: 37
+Output: E_n
+Formula: (h/(2*pi))*omega
+Variables:
+  Name: omega, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+
+Filename: I.37.4
+Number: 38
+Output: Int
+Formula: I1+I2+2*sqrt(I1*I2)*cos(delta)
+Variables:
+  Name: I1, Low: 1, High: 5
+  Name: I2, Low: 1, High: 5
+  Name: delta, Low: 1, High: 5
+
+Filename: I.38.12
+Number: 39
+Output: r
+Formula: 4*pi*epsilon*(h/(2*pi))**2/(m*q**2)
+Variables:
+  Name: m, Low: 1, High: 5
+  Name: q, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+
+Filename: I.39.1
+Number: 40
+Output: E_n
+Formula: 3/2*pr*V
+Variables:
+  Name: pr, Low: 1, High: 5
+  Name: V, Low: 1, High: 5
+
+Filename: I.39.11
+Number: 41
+Output: E_n
+Formula: 1/(gamma-1)*pr*V
+Variables:
+  Name: gamma, Low: 2, High: 5
+  Name: pr, Low: 1, High: 5
+  Name: V, Low: 1, High: 5
+
+Filename: I.39.22
+Number: 42
+Output: pr
+Formula: n*kb*T/V
+Variables:
+  Name: n, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+  Name: V, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+
+Filename: I.40.1
+Number: 43
+Output: n
+Formula: n_0*exp(-m*g*x/(kb*T))
+Variables:
+  Name: n_0, Low: 1, High: 5
+  Name: m, Low: 1, High: 5
+  Name: x, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+  Name: g, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+
+Filename: I.41.16
+Number: 44
+Output: L_rad
+Formula: h/(2*pi)*omega**3/(pi**2*c**2*(exp((h/(2*pi))*omega/(kb*T))-1))
+Variables:
+  Name: omega, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: c, Low: 1, High: 5
+
+Filename: I.43.16
+Number: 45
+Output: v
+Formula: mu_drift*q*Volt/d
+Variables:
+  Name: mu_drift, Low: 1, High: 5
+  Name: q, Low: 1, High: 5
+  Name: Volt, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+
+Filename: I.43.31
+Number: 46
+Output: D
+Formula: mob*kb*T
+Variables:
+  Name: mob, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+
+Filename: I.43.43
+Number: 47
+Output: kappa
+Formula: 1/(gamma-1)*kb*v/A
+Variables:
+  Name: gamma, Low: 2, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: A, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+
+Filename: I.44.4
+Number: 48
+Output: E_n
+Formula: n*kb*T*ln(V2/V1)
+Variables:
+  Name: n, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+  Name: V1, Low: 1, High: 5
+  Name: V2, Low: 1, High: 5
+
+Filename: I.47.23
+Number: 49
+Output: c
+Formula: sqrt(gamma*pr/rho)
+Variables:
+  Name: gamma, Low: 1, High: 5
+  Name: pr, Low: 1, High: 5
+  Name: rho, Low: 1, High: 5
+
+Filename: I.48.2
+Number: 50
+Output: E_n
+Formula: m*c**2/sqrt(1-v**2/c**2)
+Variables:
+  Name: m, Low: 1, High: 5
+  Name: v, Low: 1, High: 2
+  Name: c, Low: 3, High: 10
+
+Filename: I.50.26
+Number: 51
+Output: x
+Formula: x1*(cos(omega*t)+alpha*cos(omega*t)**2)
+Variables:
+  Name: x1, Low: 1, High: 3
+  Name: omega, Low: 1, High: 3
+  Name: t, Low: 1, High: 3
+  Name: alpha, Low: 1, High: 3
+
+Filename: II.2.42
+Number: 52
+Output: Pwr
+Formula: kappa*(T2-T1)*A/d
+Variables:
+  Name: kappa, Low: 1, High: 5
+  Name: T1, Low: 1, High: 5
+  Name: T2, Low: 1, High: 5
+  Name: A, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+
+Filename: II.3.24
+Number: 53
+Output: flux
+Formula: Pwr/(4*pi*r**2)
+Variables:
+  Name: Pwr, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: II.4.23
+Number: 54
+Output: Volt
+Formula: q/(4*pi*epsilon*r)
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: II.6.11
+Number: 55
+Output: Volt
+Formula: 1/(4*pi*epsilon)*p_d*cos(theta)/r**2
+Variables:
+  Name: epsilon, Low: 1, High: 3
+  Name: p_d, Low: 1, High: 3
+  Name: theta, Low: 1, High: 3
+  Name: r, Low: 1, High: 3
+
+Filename: II.6.15a
+Number: 56
+Output: Ef
+Formula: p_d/(4*pi*epsilon)*3*z/r**5*sqrt(x**2+y**2)
+Variables:
+  Name: epsilon, Low: 1, High: 3
+  Name: p_d, Low: 1, High: 3
+  Name: r, Low: 1, High: 3
+  Name: x, Low: 1, High: 3
+  Name: y, Low: 1, High: 3
+  Name: z, Low: 1, High: 3
+
+Filename: II.6.15b
+Number: 57
+Output: Ef
+Formula: p_d/(4*pi*epsilon)*3*cos(theta)*sin(theta)/r**3
+Variables:
+  Name: epsilon, Low: 1, High: 3
+  Name: p_d, Low: 1, High: 3
+  Name: theta, Low: 1, High: 3
+  Name: r, Low: 1, High: 3
+
+Filename: II.8.7
+Number: 58
+Output: E_n
+Formula: 3/5*q**2/(4*pi*epsilon*d)
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+
+Filename: II.8.31
+Number: 59
+Output: E_den
+Formula: epsilon*Ef**2/2
+Variables:
+  Name: epsilon, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+
+Filename: II.10.9
+Number: 60
+Output: Ef
+Formula: sigma_den/epsilon*1/(1+chi)
+Variables:
+  Name: sigma_den, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: chi, Low: 1, High: 5
+
+Filename: II.11.3
+Number: 61
+Output: x
+Formula: q*Ef/(m*(omega_0**2-omega**2))
+Variables:
+  Name: q, Low: 1, High: 3
+  Name: Ef, Low: 1, High: 3
+  Name: m, Low: 1, High: 3
+  Name: omega_0, Low: 3, High: 5
+  Name: omega, Low: 1, High: 2
+
+Filename: II.11.17
+Number: 62
+Output: n
+Formula: n_0*(1+p_d*Ef*cos(theta)/(kb*T))
+Variables:
+  Name: n_0, Low: 1, High: 3
+  Name: kb, Low: 1, High: 3
+  Name: T, Low: 1, High: 3
+  Name: theta, Low: 1, High: 3
+  Name: p_d, Low: 1, High: 3
+  Name: Ef, Low: 1, High: 3
+
+Filename: II.11.20
+Number: 63
+Output: Pol
+Formula: n_rho*p_d**2*Ef/(3*kb*T)
+Variables:
+  Name: n_rho, Low: 1, High: 5
+  Name: p_d, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+
+Filename: II.11.27
+Number: 64
+Output: Pol
+Formula: n*alpha/(1-(n*alpha/3))*epsilon*Ef
+Variables:
+  Name: n, Low: 0, High: 1
+  Name: alpha, Low: 0, High: 1
+  Name: epsilon, Low: 1, High: 2
+  Name: Ef, Low: 1, High: 2
+
+Filename: II.11.28
+Number: 65
+Output: theta
+Formula: 1+n*alpha/(1-(n*alpha/3))
+Variables:
+  Name: n, Low: 0, High: 1
+  Name: alpha, Low: 0, High: 1
+
+Filename: II.13.17
+Number: 66
+Output: B
+Formula: 1/(4*pi*epsilon*c**2)*2*I/r
+Variables:
+  Name: epsilon, Low: 1, High: 5
+  Name: c, Low: 1, High: 5
+  Name: I, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: II.13.23
+Number: 67
+Output: rho_c
+Formula: rho_c_0/sqrt(1-v**2/c**2)
+Variables:
+  Name: rho_c_0, Low: 1, High: 5
+  Name: v, Low: 1, High: 2
+  Name: c, Low: 3, High: 10
+
+Filename: II.13.34
+Number: 68
+Output: j
+Formula: rho_c_0*v/sqrt(1-v**2/c**2)
+Variables:
+  Name: rho_c_0, Low: 1, High: 5
+  Name: v, Low: 1, High: 2
+  Name: c, Low: 3, High: 10
+
+Filename: II.15.4
+Number: 69
+Output: E_n
+Formula: -mom*B*cos(theta)
+Variables:
+  Name: mom, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: theta, Low: 1, High: 5
+
+Filename: II.15.5
+Number: 70
+Output: E_n
+Formula: -p_d*Ef*cos(theta)
+Variables:
+  Name: p_d, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+  Name: theta, Low: 1, High: 5
+
+Filename: II.21.32
+Number: 71
+Output: Volt
+Formula: q/(4*pi*epsilon*r*(1-v/c))
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: epsilon, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+  Name: v, Low: 1, High: 2
+  Name: c, Low: 3, High: 10
+
+Filename: II.24.17
+Number: 72
+Output: k
+Formula: sqrt(omega**2/c**2-pi**2/d**2)
+Variables:
+  Name: omega, Low: 4, High: 6
+  Name: c, Low: 1, High: 2
+  Name: d, Low: 2, High: 4
+
+Filename: II.27.16
+Number: 73
+Output: flux
+Formula: epsilon*c*Ef**2
+Variables:
+  Name: epsilon, Low: 1, High: 5
+  Name: c, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+
+Filename: II.27.18
+Number: 74
+Output: E_den
+Formula: epsilon*Ef**2
+Variables:
+  Name: epsilon, Low: 1, High: 5
+  Name: Ef, Low: 1, High: 5
+
+Filename: II.34.2a
+Number: 75
+Output: I
+Formula: q*v/(2*pi*r)
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: II.34.2
+Number: 76
+Output: mom
+Formula: q*v*r/2
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: v, Low: 1, High: 5
+  Name: r, Low: 1, High: 5
+
+Filename: II.34.11
+Number: 77
+Output: omega
+Formula: g_*q*B/(2*m)
+Variables:
+  Name: g_, Low: 1, High: 5
+  Name: q, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: m, Low: 1, High: 5
+
+Filename: II.34.29a
+Number: 78
+Output: mom
+Formula: q*h/(4*pi*m)
+Variables:
+  Name: q, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+  Name: m, Low: 1, High: 5
+
+Filename: II.34.29b
+Number: 79
+Output: E_n
+Formula: g_*mom*B*Jz/(h/(2*pi))
+Variables:
+  Name: g_, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+  Name: Jz, Low: 1, High: 5
+  Name: mom, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+
+Filename: II.35.18
+Number: 80
+Output: n
+Formula: n_0/(exp(mom*B/(kb*T))+exp(-mom*B/(kb*T)))
+Variables:
+  Name: n_0, Low: 1, High: 3
+  Name: kb, Low: 1, High: 3
+  Name: T, Low: 1, High: 3
+  Name: mom, Low: 1, High: 3
+  Name: B, Low: 1, High: 3
+
+Filename: II.35.21
+Number: 81
+Output: M
+Formula: n_rho*mom*tanh(mom*B/(kb*T))
+Variables:
+  Name: n_rho, Low: 1, High: 5
+  Name: mom, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+
+Filename: II.36.38
+Number: 82
+Output: f
+Formula: mom*H/(kb*T)+(mom*alpha)/(epsilon*c**2*kb*T)*M
+Variables:
+  Name: mom, Low: 1, High: 3
+  Name: H, Low: 1, High: 3
+  Name: kb, Low: 1, High: 3
+  Name: T, Low: 1, High: 3
+  Name: alpha, Low: 1, High: 3
+  Name: epsilon, Low: 1, High: 3
+  Name: c, Low: 1, High: 3
+  Name: M, Low: 1, High: 3
+
+Filename: II.37.1
+Number: 83
+Output: E_n
+Formula: mom*(1+chi)*B
+Variables:
+  Name: mom, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: chi, Low: 1, High: 5
+  Name: , Low: , High: 
+  Name: , Low: , High: 
+  Name: , Low: , High: 
+
+Filename: II.38.3
+Number: 84
+Output: F
+Formula: Y*A*x/d
+Variables:
+  Name: Y, Low: 1, High: 5
+  Name: A, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+  Name: x, Low: 1, High: 5
+
+Filename: II.38.14
+Number: 85
+Output: mu_S
+Formula: Y/(2*(1+sigma))
+Variables:
+  Name: Y, Low: 1, High: 5
+  Name: sigma, Low: 1, High: 5
+
+Filename: III.4.32
+Number: 86
+Output: n
+Formula: 1/(exp((h/(2*pi))*omega/(kb*T))-1)
+Variables:
+  Name: h, Low: 1, High: 5
+  Name: omega, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+
+Filename: III.4.33
+Number: 87
+Output: E_n
+Formula: (h/(2*pi))*omega/(exp((h/(2*pi))*omega/(kb*T))-1)
+Variables:
+  Name: h, Low: 1, High: 5
+  Name: omega, Low: 1, High: 5
+  Name: kb, Low: 1, High: 5
+  Name: T, Low: 1, High: 5
+
+Filename: III.7.38
+Number: 88
+Output: omega
+Formula: 2*mom*B/(h/(2*pi))
+Variables:
+  Name: mom, Low: 1, High: 5
+  Name: B, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+
+Filename: III.8.54
+Number: 89
+Output: prob
+Formula: sin(E_n*t/(h/(2*pi)))**2
+Variables:
+  Name: E_n, Low: 1, High: 2
+  Name: t, Low: 1, High: 2
+  Name: h, Low: 1, High: 4
+
+Filename: III.9.52
+Number: 90
+Output: prob
+Formula: (p_d*Ef*t/(h/(2*pi)))*sin((omega-omega_0)*t/2)**2/((omega-omega_0)*t/2)**2
+Variables:
+  Name: p_d, Low: 1, High: 3
+  Name: Ef, Low: 1, High: 3
+  Name: t, Low: 1, High: 3
+  Name: h, Low: 1, High: 3
+  Name: omega, Low: 1, High: 5
+  Name: omega_0, Low: 1, High: 5
+
+Filename: III.10.19
+Number: 91
+Output: E_n
+Formula: mom*sqrt(Bx**2+By**2+Bz**2)
+Variables:
+  Name: mom, Low: 1, High: 5
+  Name: Bx, Low: 1, High: 5
+  Name: By, Low: 1, High: 5
+
+Filename: III.12.43
+Number: 92
+Output: L
+Formula: n*(h/(2*pi))
+Variables:
+  Name: n, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+
+Filename: III.13.18
+Number: 93
+Output: v
+Formula: 2*E_n*d**2*k/(h/(2*pi))
+Variables:
+  Name: E_n, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+  Name: k, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+
+Filename: III.14.14
+Number: 94
+Output: I
+Formula: I_0*(exp(q*Volt/(kb*T))-1)
+Variables:
+  Name: I_0, Low: 1, High: 5
+  Name: q, Low: 1, High: 2
+  Name: Volt, Low: 1, High: 2
+  Name: kb, Low: 1, High: 2
+  Name: T, Low: 1, High: 2
+
+Filename: III.15.12
+Number: 95
+Output: E_n
+Formula: 2*U*(1-cos(k*d))
+Variables:
+  Name: U, Low: 1, High: 5
+  Name: k, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+
+Filename: III.15.14
+Number: 96
+Output: m
+Formula: (h/(2*pi))**2/(2*E_n*d**2)
+Variables:
+  Name: h, Low: 1, High: 5
+  Name: E_n, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+
+Filename: III.15.27
+Number: 97
+Output: k
+Formula: 2*pi*alpha/(n*d)
+Variables:
+  Name: alpha, Low: 1, High: 5
+  Name: n, Low: 1, High: 5
+  Name: d, Low: 1, High: 5
+
+Filename: III.17.37
+Number: 98
+Output: f
+Formula: beta*(1+alpha*cos(theta))
+Variables:
+  Name: beta, Low: 1, High: 5
+  Name: alpha, Low: 1, High: 5
+  Name: theta, Low: 1, High: 5
+
+Filename: III.19.51
+Number: 99
+Output: E_n
+Formula: -m*q**4/(2*(4*pi*epsilon)**2*(h/(2*pi))**2)*(1/n**2)
+Variables:
+  Name: m, Low: 1, High: 5
+  Name: q, Low: 1, High: 5
+  Name: h, Low: 1, High: 5
+  Name: n, Low: 1, High: 5
+
+Filename: III.21.20
+Number: 100
+Output: j
+Formula: -rho_c_0*q*A_vec/m
+Variables:
+  Name: rho_c_0, Low: 1, High: 5
+  Name: q, Low: 1, High: 5
+  Name: A_vec, Low: 1, High: 5
+  Name: m, Low: 1, High: 5
+
