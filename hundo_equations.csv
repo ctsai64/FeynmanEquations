@@ -1,0 +1,101 @@
+Number,Output,Formula,# parameters,p1_name,p2_name,p3_name
+1,f,ax^2 + bx + c,3,a,b,c
+2,f,a e^(bx),2,a,b
+3,f,ax^3 + bx^2 + cx,3,a,b,c
+4,f,a/(x + b),2,a,b
+5,f,a sqrt(x) + b,2,a,b
+6,f,a ln(bx + c),3,a,b,c
+7,f,a x^2 ln(bx),2,a,b
+8,f,ax^3 + b,2,a,b
+9,f,a x/(b + c x),3,a,b,c
+10,f,a/(x^2 + b),2,a,b
+11,f,a x^2 e^(bx),2,a,b
+12,f,a x e^(bx) + c,3,a,b,c
+13,f,ax^2 - b x e^(-c x),3,a,b,c
+14,f,a e^(b x)/(x + c),2,a,b,c
+15,f,a/(x^3 + b),2,a,b
+16,f,ax^4 + bx^2 + c,3,a,b,c
+17,f,ax^2 - b x + c,3,a,b,c
+18,f,a e^(b x) + c x,2,a,b,c
+19,f,a sqrt(x) + b x^2,2,a,b
+20,f,a/(x^2 + b x + c),3,a,b,c
+21,f,a x^2 ln(b x + c),3,a,b,c
+22,f,a x ln(b x) + c,2,a,b
+23,f,a x^3 + b sqrt(x) + c,3,a,b,c
+24,f,a/(b x + c),2,a,b,c
+25,f,a x^3 e^(b x),2,a,b
+26,f,a e^(b x) sqrt(x + c),2,a,b,c
+27,f,a x^2 e^(b x) + c,2,a,b,c
+28,f,ax^2 - b e^(-c x),2,a,b,c
+29,f,a sqrt(x)/(b x + c),2,a,b,c
+30,f,a ln(b x + c) sqrt(x),3,a,b,c
+31,f,a x ln(b x) + c x^2,3,a,b,c
+32,f,a e^(b x) + b x^3,2,a,b
+33,f,a/(x + b) + c,2,a,b,c
+34,f,a x sqrt(x + b),2,a,b
+35,f,a e^(b x)/(x + c),2,a,b,c
+36,f,a x^2/(b x + c),2,a,b,c
+37,f,a x^2 e^(b x) + b,2,a,b
+38,f,a sqrt(x + b) + c ln(x),3,a,b,c
+39,f,ax^2 - b e^(c x),3,a,b,c
+40,f,a/(x + b) e^(c x),2,a,b,c
+41,f,a x^2 + b sqrt(x) + c,3,a,b,c
+42,f,a e^(b x) + b ln(x + c),2,a,b,c
+43,f,a x e^(b x) sqrt(x + c),3,a,b,c
+44,f,a ln(x + b)/(x^2 + c),3,a,b,c
+45,f,a x/(b x^2 + c),3,a,b,c
+46,f,a e^(b x) + b x sqrt(x + c),2,a,b,c
+47,f,a x^3 + b x sqrt(x + c),3,a,b,c
+48,f,a x^2/(x + b) e^(c x),3,a,b,c
+49,f,a sqrt(x) e^(b x) + c,2,a,b,c
+50,f,a ln(x + b)/(x^2 + c) + d,4,a,b,c,d
+51,f,a x e^(b x) + b x^2,2,a,b
+52,f,a/(x^2 + b) ln(x + c),3,a,b,c
+53,f,a x^2 e^(b x)/(x + c),3,a,b,c
+54,f,a/(b + c x^2),3,a,b,c
+55,f,a e^(b x) sqrt(x + c),2,a,b,c
+56,f,a x e^(b x) + b,2,a,b
+57,f,a x^2 e^(b x)/(x + c),3,a,b,c
+58,f,a e^(b x)/(x^2 + c),2,a,b,c
+59,f,a x^2 e^(b x) + b sqrt(x),2,a,b
+60,f,a sqrt(x)/(x + b) + c,2,a,b,c
+61,f,a x^2 e^(b x)/(x + c),3,a,b,c
+62,f,a x sqrt(x + b) e^(c x),3,a,b,c
+63,f,a e^(b x) + b x^2,2,a,b
+64,f,a/(x + b) e^(c x) + d,3,a,b,c,d
+65,f,a x ln(b x) e^(c x),3,a,b,c
+66,f,a/(x^2 + b) e^(c x) ln(x),3,a,b,c
+67,f,a sqrt(x) + b x e^(c x),2,a,b,c
+68,f,a e^(b x)/(x^2 + c) + d,3,a,b,c,d
+69,f,a x^3 + b sqrt(x) e^(c x),3,a,b,c
+70,f,a/(x + b) ln(c x),2,a,b,c
+71,f,a x e^(b x) + c,2,a,b,c
+72,f,a x^2/(x + b) e^(c x),3,a,b,c
+73,f,a sqrt(x) e^(b x) + c x,2,a,b,c
+74,f,a e^(b x)/(x^2 + c) ln(x),3,a,b,c
+75,f,a x e^(b x)/(x + c),3,a,b,c
+76,f,a x^2 ln(b x) + c,3,a,b,c
+77,f,a sqrt(x) e^(b x) + c,2,a,b,c
+78,f,a e^(b x)/(x^2 + c) ln(x),3,a,b,c
+79,f,a x^2 e^(b x) + b sqrt(x),2,a,b
+80,f,a x e^(b x)/(x + c),3,a,b,c
+81,f,a x e^(b x) sqrt(x + c),3,a,b,c
+82,f,a/(x + b) e^(c x) + d,3,a,b,c,d
+83,f,a x^2 ln(b x) + c sqrt(x),3,a,b,c
+84,f,a e^(b x)/(x + c) sqrt(x),3,a,b,c
+85,f,a x ln(b x) e^(c x),3,a,b,c
+86,f,a sqrt(x) + b x e^(c x),2,a,b,c
+87,f,a e^(b x)/(x^2 + c) ln(x),3,a,b,c
+88,f,a x^3 + b e^(c x),2,a,b,c
+89,f,a/(x + b) ln(c x),2,a,b,c
+90,f,a x e^(b x) + c,2,a,b,c
+91,f,a x^2/(x + b) e^(c x),3,a,b,c
+92,f,a sqrt(x) e^(b x) + c x,2,a,b,c
+93,f,a e^(b x)/(x^2 + c) ln(x),3,a,b,c
+94,f,a x e^(b x) + b x^2,2,a,b
+95,f,a x^2/(x + b) e^(c x),3,a,b,c
+96,f,a e^(b x) + b (x/(x + c)),3,a,b,c
+97,f,a sqrt(x)/(x + b) + c x,2,a,b,c
+98,f,a x e^(b x)/(x + c),3,a,b,c
+99,f,a x^2/(x + b) e^(c x),3,a,b,c
+100,f,a e^(b x) + b sqrt(x) e^(c x),3,a,b,c
