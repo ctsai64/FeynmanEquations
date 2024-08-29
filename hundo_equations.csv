@@ -11,7 +11,7 @@ Number,Output,Formula,# parameters,p1_name,p2_name,p3_name
 10,f,a/(x^2 + b),2,a,b
 11,f,a x^2 e^(bx),2,a,b
 12,f,a x e^(bx) + c,3,a,b,c
-13,f,ax^2 - b x e^(-c x),3,a,b,c
+13,f,ax^3 + b x e^(-c x),3,a,b,c
 14,f,a e^(b x)/(x + c),2,a,b,c
 15,f,a/(x^3 + b),2,a,b
 16,f,ax^4 + bx^2 + c,3,a,b,c
@@ -66,7 +66,7 @@ Number,Output,Formula,# parameters,p1_name,p2_name,p3_name
 65,f,a x ln(b x) e^(c x),3,a,b,c
 66,f,a/(x^2 + b) e^(c x) ln(x),3,a,b,c
 67,f,a sqrt(x) + b x e^(c x),2,a,b,c
-68,f,a e^(b x)/(x^2 + c) + d,3,a,b,c,d
+68,f,a e^(b x)/(x + c) ln(x),3,a,b,c
 69,f,a x^3 + b sqrt(x) e^(c x),3,a,b,c
 70,f,a/(x + b) ln(c x),2,a,b,c
 71,f,a x e^(b x) + c,2,a,b,c
