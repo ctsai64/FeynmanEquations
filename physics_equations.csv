@@ -98,4 +98,4 @@ Number,Formula,# variables,v1_name,v1_high,v1_low,v2_name,v2_high,v2_low,v3_name
 97,(a*x**4 + b*x**2)/(c*x**2 + d*x + e),5,a,1,-1,b,1,-1,c,1,-1,d,1,-1,e,1,-1
 98,a*(x**5 - b*x**3),2,a,1,-1,b,1,0,,,,,,,,,
 99,log(a*x + b),2,a,1,0.1,b,1,0.1,,,,,,,,,
-100,a*log(b*x + sqrt((b*x)**2 + 1)),2,a,1,-1,b,1,0.1,,,,,,,,
+100,a*log(b*x + sqrt((b*x)**2 + 1)),2,a,1,-1,b,1,0.1,,,,,,,,,
